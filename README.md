@@ -31,8 +31,6 @@ dataset. You list the covariates to test on each parameter
 * check a dataset  and a
   control stream before
   modelling, with a corrected copy of the control stream;
-* run a complete non-compartmental analysis of a dataset, with tables, a
-  report and figures;
 * simulate a study like NONMEM's `$SIMULATION`: generate the dataset (CDC growth charts for ages 2–20,
   normal weights for adults) or use your own, simulate it, compute the steady-state exposure of every
   subject (Cmax, Cmin, Cavg, AUCtau, …), tables and figures, in parallel
