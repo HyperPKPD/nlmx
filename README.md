@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo_nlmx.jpg" width="120" alt="HyperPKPD nlmx: low code pkpd" />
+<img src="logo_nlmx.jpg" width="220" alt="HyperPKPD nlmx: low code pkpd" />
 
 
 # nlmx: Low code PKPD software suite that talks to you
