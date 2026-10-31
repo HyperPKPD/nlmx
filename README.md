@@ -1,4 +1,12 @@
+<div align="center">
+
+<img src="logo_nlmx.jpg" width="120" alt="HyperPKPD nlmx: low code pkpd" />
+
+
 # nlmx: Low code PKPD software suite that talks to you
+
+</div>
+
 
 **Built for automation capabilities. Faster than NONMEM. More complete.**
 
@@ -17,25 +25,14 @@ dataset. You list the covariates to test on each parameter
   jointly and reports the final covariate model with its objective
   function value.
 
-None of this  NONMEM ([docs/COVARIATES.md](docs/COVARIATES.md)).
-There are two engines, selected with `method`:
 
-| method | engine | question it answers |
-|---|---|---|
-| `frozen` | Frozen-model efficient score test | Does the data push each candidate coefficient away from zero at the base solution? Gives a univariate and conditional score test, forward/backward selection and parameter-uncertainty propagation. |
-| `posterior` | Posterior random-effect stability selection | Which covariates *repeatedly* explain between-subject variability across posterior draws, subject resamples, base-parameter perturbations and several learners? |
-| `both` | both engines + comparison | Where do the two lines of evidence agree? |
+`nlmx` runs covariate analysis. It can also:
 
-`nlmx` combines the former `frozenmodel` and `posteriormodel` programs. It
-reads the model directly from the NONMEM control stream. It can also:
-
-* check a dataset (`nlmx qc-data`, [docs/QC-DATA.md](docs/QC-DATA.md)) and a
-  control stream (`nlmx qc-nm`, [docs/QC-NM.md](docs/QC-NM.md)) before
+* check a dataset  and a
+  control stream before
   modelling, with a corrected copy of the control stream;
 * run a complete non-compartmental analysis of a dataset, with tables, a
-  report and figures (`nlmx nca`, [docs/NCA.md](docs/NCA.md));
-* draw the exploratory plots and tables of a PK/PD dataset, standard and
-  custom (`nlmx eda`, [docs/EDA.md](docs/EDA.md));
+  report and figures;
 * simulate a study like NONMEM's `$SIMULATION`: generate the dataset (CDC growth charts for ages 2–20,
   normal weights for adults) or use your own, simulate it, compute the steady-state exposure of every
   subject (Cmax, Cmin, Cavg, AUCtau, …), tables and figures, in parallel
