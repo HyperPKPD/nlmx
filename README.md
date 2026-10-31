@@ -3,7 +3,7 @@
 <img src="logo_nlmx.jpg" width="220" alt="HyperPKPD nlmx: low code pkpd" />
 
 
-# nlmx: Low code PKPD software suite that talks to you
+# nlmx: Low code complete PKPD software suite 
 
 </div>
 
@@ -51,9 +51,6 @@ dataset. You list the covariates to test on each parameter
   [docs/GENERATE.md](docs/GENERATE.md));
 * draw publication figures for all of these (`--plots`).
 
-This README describes **version 2.27.0**. [CHANGELOG.md](CHANGELOG.md) has
-the version history, and [docs/VERSIONING.md](docs/VERSIONING.md) explains
-how versions are made.
 
 > Results are **recommendations**. Every retained relationship must be
 > confirmed with an explicit NONMEM fit before it is used for inference or
