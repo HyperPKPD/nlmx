@@ -10,6 +10,8 @@
 
 **Built for automation capabilities. Faster than NONMEM. More complete.**
 
+**NOT RELEASED YET**
+
 `nlmx` can fit the model for you or start from a *completed* NONMEM base model: the control stream,
 `.ext`, `.cov`, `.cor`, and optionally a `.phi` or `.tab`, plus the analysis
 dataset. You list the covariates to test on each parameter
